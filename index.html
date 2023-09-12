@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>minin_html</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="info">
+        <!-- <img
+          class="info_photo"
+          src="https://source.unsplash.com/random/"
+          alt="random"
+        /> -->
+
+        <!-- <img
+        class="info_photo"
+          src="https://images.unsplash.com/photo-1570598912132-0ba1dc952b7d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3072&q=80"
+          alt="picture"
+        /> -->
+        <div>
+          <img
+            class="info_img"
+            src="./info.jpg"
+            alt="picture"
+          />
+        </div>
+
+        <div class="info_desc">
+          <h1>Tatiana Morozova</h1>
+          <p>I'm starting to practice CCS</p>
+          <p>
+            I want to have a good job with a high salary because I want to take
+            my husband to different countries and show him
+            <span class="info_text_decorate">how wonderful the world is</span>.
+          </p>
+
+          <h4>Social media</h4>
+          <div>
+            <a href="https://uk-ua.facebook.com/" target="_blank">Facebook</a>
+            |
+            <a href="https://www.instagram.com/" target="_blank">Instagram</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card bg_pink_light">
+        <h2>My hobbies</h2>
+
+        <ol class="hobbies_list">
+          <li>Spend time with my husband and cat</li>
+          <li>Long walks in the parks</li>
+          <li>To solve a puzzle</li>
+          <li>Play piano & kalimba</li>
+          <li>Sometimes play games</li>
+        </ol>
+      </div>
+      <div class="card bg_pink_middle">
+        <h2>Let's try to count the numbers</h2>
+        <table class="count_table">
+          <thead>
+            <tr class="count_table-header">
+              <th>Num 1</th>
+              <th>Num 2</th>
+              <th>Operator</th>
+              <th>Result</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>5</td>
+              <td>+</td>
+              <td>6</td>
+              <td>11</td>
+            </tr>
+            <tr>
+              <td>15</td>
+              <td>+</td>
+              <td>67</td>
+              <td>82</td>
+            </tr>
+            <tr>
+              <td>342</td>
+              <td>-</td>
+              <td>12</td>
+              <td>330</td>
+            </tr>
+            <tr>
+              <td>56</td>
+              <td>+</td>
+              <td>7</td>
+              <td>63</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="card bg_pink_dark">
+        <h2>Magic gallary</h2>
+        <ul class="gallary_list">
+          <li>
+            <img src="https://source.unsplash.com/random/1" alt="random" />
+          </li>
+          <li>
+            <img src="https://source.unsplash.com/random/2" alt="random" />
+          </li>
+          <li>
+            <img src="https://source.unsplash.com/random/3" alt="random" />
+          </li>
+          <li>
+            <img src="https://source.unsplash.com/random/4" alt="random" />
+          </li>
+        </ul>
+      </div>
+
+      <div class="contact">
+        <h2>You can text me</h2>
+
+        <form class="contact_form" action="/">
+          <div class="row">
+            <div class="form_group">
+              <label for="name">Your name: </label>
+              <input
+                type="text"
+                name=""
+                id="name"
+                placeholder="Please put your name"
+                required
+              />
+            </div>
+            <div class="form_group">
+              <label for="email">Email: </label>
+              <input
+                type="text"
+                name=""
+                id="email"
+                placeholder="Please add your email"
+                required
+              />
+            </div>
+          </div>
+
+          <div class="form_group">
+            <label for="text">Your text: </label>
+            <textarea id="text" cols="30" rows="2"></textarea>
+          </div>
+
+          <input class="form_btn" type="submit" id="submit" value="Let's go" />
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
